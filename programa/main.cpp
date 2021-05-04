@@ -12,6 +12,20 @@ int main()
      * Consejo: Asuma que el arreglo que se probará siempre va a estar ordenado
      */
     cout << "Challenge #1" << endl;
+    cout <<"Ingrese las pposiciones que deseas colocar" << endl;
+    cin >> n;
+    int n;
     int arreglo[] = {0, 1, 1, 1, 2, 2};  // Empiece con este arreglo ya existente, el docente modificará este arreglo para pruebas
+    for (int i =0; i<=n; i++){
+        cout << ("\nindice[n]: ", i);
+        cin >> arreglo[i];
+    }
+    for (int k = 0; k<n; k++){
+        int num = 0;
+        n = arreglo[i];
+        k++;
+
+    }
     return 0;
+
 }
